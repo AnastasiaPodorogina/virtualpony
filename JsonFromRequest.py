@@ -18,6 +18,27 @@ class JsonFromRequest:
 		r = requests.get(url=self.request.format(self.d_date, self.origin, self.destination, self.token))	
 		return r.json()
 
+
+class Ticket:
+	def __init__(self, curr, airline, price, transfers): 
+		self.curr = curr
+		self.airline = airline
+		self.price = price
+		self.transfers = transfers
+		self.weight = 0
+
+	def ticket_list(self):
+		return [self.curr, self.airline, self.price, self.transfers]
+
+
+
 if __name__ == "__main__":
 	js = JsonFromRequest("2018-04", "MOW", "BCN")
-	print(js.get_json())
+	array_tk = js.get_json()["data"]
+	ticket_list = list()
+	for key, value in array_tk.items():
+		ticket_list.append(Ticket(js.get_json()["currency"], value["airline"], value["price"], value["transfers"]))
+	print (ticket_list)	
+	#print(array_tk[0])
+	#tk = Ticket(js.get_json()["currency"], array_tk[0])
+	#print(json.dumps(js.get_json()["data"], indent=4, sort_keys=True))
