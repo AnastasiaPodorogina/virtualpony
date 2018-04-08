@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import JsonFromRequest as FUCK
 
-TOKEN = "583902166:AAHRknj8tijEEt82RL8X3IGZs4lgV16RjiE"
+TOKEN = ""
 TXT_HELLO = "Привет! Я Пони - твой друг)\nСегодня я помогу тебе выбрать самые классные билеты, чтобы ты смог отправиться в путешествие ;)\n\n\nИз какого ты города?"
 CHAT_ID = 187022130
 tb = telebot.TeleBot(TOKEN)
