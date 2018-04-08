@@ -46,8 +46,26 @@ def ticket_list(js):
     return t_list
 
 
+def get_json_port():
+    json_port = json.load(open("aviaport.json"))
+    print(json.dumps(json_port, indent=4, sort_keys=True))
+    return json_port
+
+
+def get_json_city():
+    json_city = requests.get(url="http://api.travelpayouts.com/data/cities.json")
+    js_c = json.dumps(json_city.json(), indent=4, sort_keys=True)
+    city_dict = dict()
+    for d in json_city.json():
+        city_dict[d["code"]] = d["name_translations"]["ru"]
+    return json_city.json()
+
+
 if __name__ == "__main__":
     js = JsonFromRequest("2018-04", "MOW", "BCN")
+    get_json_city()
+    get_json_port()
+
 # print(array_tk[0])
 # tk = Ticket(js.get_json()["currency"], array_tk[0])
 # print(json.dumps(js.get_json()["data"], indent=4, sort_keys=True))

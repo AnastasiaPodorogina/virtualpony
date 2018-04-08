@@ -1,0 +1,133 @@
+{
+  "SU":{
+    "bort_feed":0.53,
+    "hand_clad":0.93,
+    "p_space":0.66,
+    "entertain":0.89,
+    "clean":0.89,
+    "sells":0.23,
+    "staff_work":0.82
+
+  },	
+  "S7":{
+    "bort_feed":0.4,
+    "hand_clad":0.62,
+    "p_space":0.59,
+    "entertain":0.53,
+    "clean":0.87,
+    "sells":0.56,
+    "staff_work":0.82
+
+  },	
+  "FV":{
+    "bort_feed":0.46,
+    "hand_clad":0.93,
+    "p_space":0.55,
+    "entertain":0.86,
+    "clean":0.72,
+    "sells":0.32,
+    "staff_work":0.83
+    
+  },	
+  "U6":{
+    "bort_feed":0.35,
+    "hand_clad":0.78,
+    "p_space":0.46,
+    "entertain":0.48,
+    "clean":0.75,
+    "sells":0.0,
+    "staff_work":0.72
+
+  },	
+  "UT":{
+    "bort_feed":0.23,
+    "hand_clad":0.93,
+    "p_space":0.53,
+    "entertain":0.33,
+    "clean":0.81,
+    "sells":0.8,
+    "staff_work":0.8
+
+  },	
+  "DP":{
+    "bort_feed":0.0,
+    "hand_clad":0.83,
+    "p_space":0.33,
+    "entertain":0.0,
+    "clean":0.94,
+    "sells":0.0,
+    "staff_work":0.77
+
+  },	
+  "N4":{
+    "bort_feed":0.32,
+    "hand_clad":0.7,
+    "p_space":0.51,
+    "entertain":0.0,
+    "clean":0.8,
+    "sells":0.0,
+    "staff_work":0.7
+
+  },	
+  "YC":{
+    "bort_feed":0.33,
+    "hand_clad":0.7,
+    "p_space":0.51,
+    "entertain":0.22,
+    "clean":0.89,
+    "sells":0.0,
+    "staff_work":0.72
+
+  },	
+  "WZ":{
+    "bort_feed":0.41,
+    "hand_clad":0.93,
+    "p_space":0.56,
+    "entertain":0.32,
+    "clean":0.66,
+    "sells":0.5,
+    "staff_work":0.8
+
+  },	
+  "Y7":{
+    "bort_feed":0.29,
+    "hand_clad":0.64,
+    "p_space":0.5,
+    "entertain":0.44,
+    "clean":0.76,
+    "sells":0.13,
+    "staff_work":0.72
+
+  },	
+  "5N":{
+    "bort_feed":0.35,
+    "hand_clad":0.93,
+    "p_space":0.53,
+    "entertain":0.32,
+    "clean":0.72,
+    "sells":0.0,
+    "staff_work":0.69
+
+  },	
+  "R3":{
+    "bort_feed":0.35,
+    "hand_clad":0.85,
+    "p_space":0.54,
+    "entertain":0.14,
+    "clean":0.66,
+    "sells":0.0,
+    "staff_work":0.69
+
+  },	
+  "A4":{
+    "bort_feed":0.0,
+    "hand_clad":0.88,
+    "p_space":0.52,
+    "entertain":0.0,
+    "clean":0.89,
+    "sells":0.0,
+    "staff_work":0.85
+
+  }
+
+}
